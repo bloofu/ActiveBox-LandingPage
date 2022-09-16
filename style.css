@@ -145,6 +145,7 @@ body {
 
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 
   padding: 15px 50px;
 
@@ -160,6 +161,10 @@ body {
 }
 .btn--red:hover {
   background: #cb3737;
+}
+
+.btn--long {
+  min-width: 280px;
 }
 
 /* FEATURES
@@ -329,6 +334,10 @@ body {
   display: flex;
 }
 
+.social--footer {
+  justify-content: center;
+}
+
 .social__item {
   display: flex;
   justify-content: center;
@@ -340,7 +349,7 @@ body {
 
   background: #fff;
 
-  margin-right: 4px;
+  margin-right: 5px;
   transition: background-color 0.2s linear;
 }
 
@@ -354,6 +363,26 @@ body {
 
 .social__item:hover .social__icon {
   fill: #2d3033;
+}
+
+.social--footer .social__item {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px;
+
+  margin-right: 10px;
+}
+
+.social--footer .social__item:last-child {
+  margin: 0;
+}
+
+.social--footer .social__icon {
+  fill: #fff;
+}
+
+.social--footer .social__item:hover {
+  background: #fff;
 }
 
 .social__icon {
@@ -414,4 +443,95 @@ body {
   font-size: 13px;
   line-height: 1.5;
   color: #fff;
+}
+
+/* Download
+===========*/
+
+.download {
+  text-align: center;
+
+  margin: 100px 0;
+}
+
+.download__title {
+  font-size: 28px;
+  color: #2d3033;
+  font-weight: 300;
+
+  margin-bottom: 20px;
+}
+
+.download__subtitle {
+  font-size: 13px;
+  font-weight: 700;
+  color: #2d3033;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+}
+
+/* Footer
+=========*/
+
+.footer {
+  background-color: #3a3e64;
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 70px 0 85px;
+}
+
+.footer__block {
+  width: 33.33333%;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.footer__title {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+
+.footer__address {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: normal;
+}
+
+.footer__text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Copyright
+=========*/
+
+.copyright {
+  background-color: #313454;
+  padding: 30px 0;
+}
+
+.copyright__text {
+  text-align: center;
+  color: #808080;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.copyright__text span {
+  color: #fff;
+}
+
+#copyright__heart {
+  color: #e84545;
 }
