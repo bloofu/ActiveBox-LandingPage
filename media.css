@@ -1,0 +1,36 @@
+@media (max-width: 991px) {
+  /* NAV */
+
+  .nav {
+    display: none;
+  }
+
+  /* BURGER */
+
+  .burger {
+    display: block;
+  }
+
+  /* INTRO */
+  .intro__title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* INTRO */
+  .intro {
+    height: auto;
+    padding: 140px 0 40px;
+  }
+
+  .intro__title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .intro__subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
