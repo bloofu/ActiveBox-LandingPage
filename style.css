@@ -288,6 +288,8 @@ body {
   top: 50%;
   z-index: 1;
 
+  min-width: 100%;
+
   transform: translate3d(-50%, -50%, 0);
 }
 
@@ -491,6 +493,8 @@ body {
   font-size: 13px;
   line-height: 1.5;
   color: #fff;
+
+  text-transform: uppercase;
 }
 
 /* Download
